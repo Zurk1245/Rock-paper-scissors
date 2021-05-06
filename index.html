@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, paper scissors</title>
+    <title>Complete Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="script.js"></script>
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+        <h2>MAKE YOUR MOVE</h2>
+    </header>
+
+    <p id="partial-result"></p>
+    <section id="choices">
+
+        <div id="container">
+            <button id="rock" class="option"><img src="icons8-hand-rock-48.png" alt=""></button>
+            <button id="paper" class="option"><img src="icons8-hand-48.png" alt=""></button>
+            <button id="scissors" class="option"><img src="icons8-hand-scissors-48.png" alt=""></button>    
+        </div> 
+
+    </section>
+
+    <section id="results">
+
+        <div id="counter">
+            <div id="playerscore" class="score"></div>
+            <div>:</div>
+            <div id="computerscore" class="score"></div>
+        </div>
+        <div id="winner"></div>
+
+    </section>
+    
+    <footer>By <a href="https://github.com/Zurk1245" target="_blank">Mariano</a></footer>
+    <script src="app.js"></script>
 </body>
 </html>
